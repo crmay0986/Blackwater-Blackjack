@@ -1,0 +1,49 @@
+//---------------------------------------------------------------------------
+
+#include <fmx.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.fmx"
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+
+}
+//---------------------------------------------------------------------------
+void __fastcall Tform1::DynamicButtonClick(TObject *Sender)
+{
+	TButton* button = dynamic_cast<TButton *>(Sender);
+	if (button) {
+		ShowMessage("Button " + button->Name + " was clicked!");
+		// Tag will be used as ID to easily perform actions.
+	}
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::StartGameButtonClick(TObject *Sender)
+{
+	// Create Decision-Making Buttons for the player
+	for (int i = 0; i < 3; i) {
+			TButton* playerButton = new TButton(this); // this sets the owner to the form. Important
+			playerButton -> Parent = this; // Sets form as visual parent. Important
+
+			playerButton->Name = "DynamicButton" + IntToStr(i);
+			playerButton->Caption "Click me " + IntToStr(i);
+			playerButton->Left = 50;
+			playerButton->Top = 100 + (i * 40); // Vertical Positions
+			playerButton->Width = 100;
+			playerButton->Height = 30;
+
+			// Assign the shared event handler function
+			playerButton->OnClick = DynamicButtonClick;
+
+			// Button ID:
+			playerButton->Tag = i;
+	}
+}
+//-------------------------------------------------------------------------
+
