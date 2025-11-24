@@ -1,2 +1,2 @@
-Project1-4.cbproj.local
+*.local/
 Wind64x/
