@@ -1,4 +1,4 @@
-Code: [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/12517/badge)](https://www.bestpractices.dev/projects/12517.svg?v=3)
+Code: [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/12517/badge)](https://www.bestpractices.dev/projects/12517)
 
 DESCRIPTION
 -----------------------------------------------------------------------------------------
@@ -15,3 +15,5 @@ For building the project, a purchasable version of RAD Studio and its dependanci
 AUTOMATED TEST SUITE
 -----------------------------------------------------------------------------------------
 Developers should add tests for major functionality that is developed.
+
+fwf
