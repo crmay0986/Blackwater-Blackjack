@@ -1,3 +1,5 @@
+Code: [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/12517/badge)](https://www.bestpractices.dev/projects/12517) 
+
 DESCRIPTION
 -----------------------------------------------------------------------------------------
 The code attempts to simulate a form of blackjack (the card game) with RAD C++ Builder 13.
@@ -13,5 +15,3 @@ For building the project, a purchasable version of RAD Studio and its dependanci
 AUTOMATED TEST SUITE
 -----------------------------------------------------------------------------------------
 Developers should add tests for major functionality that is developed.
-
-[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/12517/badge)](https://www.bestpractices.dev/projects/12517)
