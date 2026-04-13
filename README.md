@@ -1,4 +1,4 @@
-Code: [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/12517/badge)](https://www.bestpractices.dev/en/projects/12517/passing)
+Code: [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/12517/badge)](https://www.bestpractices.dev/en/projects/12517?refresh=now)
 
 DESCRIPTION
 -----------------------------------------------------------------------------------------
