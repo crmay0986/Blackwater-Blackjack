@@ -9,3 +9,7 @@ Enchancements are not being made on this project no longer. It was for a college
 RECCONMENDED TOOLS
 -----------------------------------------------------------------------------------------
 For building the project, a purchasable version of RAD Studio and its dependancies was utilized. Therefore, there is no given downloads for the build system. However, if you own RAD Studio 13, you may use cmake as one of the necessary build tools of the code. 
+
+AUTOMATED TEST SUITE
+-----------------------------------------------------------------------------------------
+Developers should add tests for major functionality that is developed.
