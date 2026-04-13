@@ -1,4 +1,4 @@
-[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/12517/badge)](https://www.bestpractices.dev/projects/12517)
+Code: [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/12517/badge)](https://www.bestpractices.dev/projects/12517) [![Scorecard supply-chain security](https://github.com/crmay0986/Blackwater-Blackjack/actions/workflows/scorecard.yml/badge.svg?branch=master)](https://github.com/crmay0986/Blackwater-Blackjack/actions/workflows/scorecard.yml)
 
 DESCRIPTION
 -----------------------------------------------------------------------------------------
