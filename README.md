@@ -15,5 +15,3 @@ For building the project, a purchasable version of RAD Studio and its dependanci
 AUTOMATED TEST SUITE
 -----------------------------------------------------------------------------------------
 Developers should add tests for major functionality that is developed.
-
-fwf
